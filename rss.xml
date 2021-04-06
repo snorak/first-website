@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+ <rss version="2.0">
+	 <channel>
+		 <item>
+			 <title>Novo u ponudi</title>
+			 
+			 <link>https://strahinja2112.000webhostapp.com/proizvodi.html</link>
+			 <description>Pogledajte nove proizvode u pekari.</description>
+		 </item>
+		 <item>
+			 <title>Nova lokacija</title>
+			
+			 <link>https://strahinja2112.000webhostapp.com/oNama.html</link>
+			  <description>Pekara na novoj lokaciji.</description>
+		 </item>
+		 <item>
+			 <title>Posao</title>
+			
+			 <link>https://strahinja2112.000webhostapp.com/registracija.html</link>
+			  <description>Primamo nove radnike</description>
+		 </item>
+	 </channel>
+ </rss> 

@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css?family=Tenor+Sans');
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-color: #cc9900;
+}
+#heder {
+	width:100%;
+	height: 100px;
+}
+.okvir {
+	margin: 0px auto;
+	width: 1200px;
+}
+#meni ul, #logovanje ul {
+	list-style: none;
+	margin-top: 25px;
+}
+#meni ul li, #logovanje ul li {
+	display: inline-block;
+	background-color: #333333;
+	padding: 10px;
+}
+ul {
+	list-style: none;
+}
+#meni a:hover, #logovanje a:hover {
+	color: #cc9900;
+}
+a {
+	text-decoration: none;
+}
+#meni a, #logovanje a {
+	color: white;
+	font-family: 'Tenor Sans', sans-serif;
+	margin: 0px 10px 0px 10px;
+}
+#logo {
+	width: 20%;
+	height: 100px;
+	float: left;
+}
+#logovanje {
+	text-align: right;
+}
+#meni {
+	width: 55%;
+	height: 100px;
+	float: left;
+	text-align: center;
+}
+#logovanje {
+	float: right;
+	width: 25%;
+	height: 100px;
+}
+main {
+	width: 100%;
+	min-height: 600px;
+	margin-top: 30px;
+}
+#gore {
+	width: 100%;
+	height: 450px;
+}
+#slika1 {
+	width: 700px;
+	height: inherit;
+	float: left;
+	color: #000;
+	text-align: left;
+}
+#textholder {
+	width: 500px;
+	height: 387px;
+	float: left;
+	background-color: #333333;
+}
+.cleaner {
+	clear: both;
+}
+#slika1 img {
+	border: 3px solid #333333;
+}
+#text1 {
+	color: white;
+	word-wrap: break-word;
+	padding: 20px 20px 0px 20px;
+	font-family: 'Tenor Sans', sans-serif;
+}
+#text1 h1 {
+	font-size: 36px;
+	text-shadow: 3px 3px black;
+}
+#text1 p {
+	margin-top: 15px;
+	font-size: 18px;
+}
+#slajder {
+	width: 1200px;
+	height: 500px;
+	margin: 0px auto;
+}
+#slajder img {
+	display: none;
+}
+#slajder .aktivna {
+	display: block;
+}
+#dole {
+	width: 1200px;
+	height: 400px;
+	/* 	 */
+	margin-top: 50px;
+}
+.sadrzaj {
+	width: 300px;
+	height: 360px;
+	float: left;
+	margin: 20px 0px 0px 75px;
+	text-align: center;
+	color: #f2f2f2;
+	background-color: #333;
+}
+.sadrzaj h2 {
+	letter-spacing: 3px;
+	font-size: 30px;
+	text-shadow: 3px 3px #000;
+	margin-top: 20px;
+}
+#futer {
+	width: 100%;
+	height: 100px;
+	margin: 50px 0px 10px 0px;;
+}
+#dno {
+	width: inherit;
+	height: 100px;
+	background-color: #333333;
+}
+.slikadole {
+	background-color: white;
+	border-radius: 30px;
+	border: 2px solid #000;
+}
+#dole img {
+	margin-top: 20px;
+}
+#xml {
+	float: left;
+	width: 25%;
+	height: inherit;
+}
+#copyright {
+	float: left;
+	width: 50%;
+	height: inherit;
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+	text-shadow: 2px 2px black;
+}
+#social {
+	float: right;
+	width: 25%;
+	height: inherit;
+}
+#facebook {
+	font-size: 40px;
+	color: white;
+	margin: 25px 30px 0px 0px;
+}
+#instagram, #sitemap {
+	font-size: 40px;
+	color: white;
+}
+#rss {
+	font-size: 40px;
+	margin: 25px 30px 0px 120px;
+	color: white;
+}
+.saznajVise {
+	font-size: 28px;
+	color: black;
+	background-color: #cc9900;
+	border-radius: 10px;
+	display: block;
+	margin:40px 0px 0px 75px;
+	border: 1px solid #333;
+	padding: 5px;
+}
+.mapouter {
+	text-align: right;
+	height: 300px;
+	width: 1200px;
+}
+.gmap_canvas {
+	overflow: hidden;
+	background: none!important;
+	height: 300px;
+	width: 1200px;
+}
+#kontakt {
+	width: 1200px;
+	margin: 0px auto;
+	background-color: #333;
+	height: 400px;
+}
+#mapa {
+	width: 1200px;
+	display: block;
+	margin-top: 40px;
+}
+#oAutoru ,#forma{
+	width: 1200px;
+	min-height: 600px;
+	margin: 0px auto;
+	background-color: #333;
+}
+#mainAutor {
+	height: 600px;
+}
+.greskaIzlaz {
+	color: red;
+}
+label {
+	color: white;
+	text-shadow: 2px 2px black;
+}
+.odeljak {
+	width: 1200px;
+	margin: 0px auto;
+	min-height: 200px;
+	margin-bottom: 20px;
+}
+.izbor {
+	width: inherit;
+	height: 160px;
+	background-color: #333;
+}
+.izborSlika {
+	width: 240px;
+	height: 140px;
+	float: left;
+}
+.izborSlika img {
+	margin: 10px;
+}
+.izborNaslov {
+	float: left;
+	width: 600px;
+	height: inherit;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 40px;
+	color: white;
+	text-shadow: 5px 5px black;
+}
+.izborDugme {
+	float: right;
+	width: 360px;
+	height: inherit;
+	margin-top: 60px;
+}
+.izborDugme input {
+	padding: 10px;
+	background-color: #cc9900;
+	font-size: 24px;
+}
+.prikaz {
+	width: 1200px;
+	min-height: 140px;
+	background-color: #333;
+}
+#autorSlika {
+	width: 300px;
+	height: 350px;
+	margin-left: 40px;
+}
+#autorSlika img:hover {
+	transform: rotate(10deg);
+}
+#autorSlika img {
+		margin-top: 40px;
+}
+#tekstOAutoru {
+	width: 600px;
+	height: 500px;
+	float: right;
+	color: white;
+	font-size: 20px;
+	margin-top: -200px;
+	text-shadow: 2px 2px black;
+	margin-right: 100px;
+	text-align: justify;
+	line-height: 1.6;
+}
+#kontaktText {
+	width: 800px;
+	height: 600px;
+	color: white;
+	text-align: center;
+	margin-left: 160px;
+	text-shadow: 2px 2px black;
+	font-size: 20px;	
+	padding: 20px;
+}
+table {
+	margin: 0px auto;
+	font-size: 25px;
+}
+table thead {
+	color: white;
+	text-align: center;
+	text-shadow: 3px 3px black;
+}
+input[type=text] {
+	width: 300px;
+	padding: 10px;
+	border-radius: 10px;
+}
+table td{
+	padding:15px;
+}
+input[type=email] {
+	width: 300px;
+	padding: 10px;
+	border-radius: 10px;
+}
+#vozacka, #posao {
+	width: 325px;
+	height: 40px;
+	border-radius: 10px;
+}
+table tfoot {
+	text-align: center;
+}
+#button {
+	padding: 10px;
+	width: 240px;
+	font-size: 24px;
+	background-color: #cc9900;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+#greske {
+	width: 1200px;
+	/* height: 100px; */
+	text-align: center;
+	color: white;	
+	font-size: 30px;
+}
+.proizvod {
+	display: inline-block;
+	width: 1000px;
+	height: 140px;
+}
+.proizvod img {
+	margin: 10px 0px 0px 10px;
+}
+.hover {
+	color: #cc9900;
+}
+.hover1 {
+	margin-top: 20px;
+	font-size: 20px;
+}
+.slikaProizvod, .naslovProizvod, .cenaProizvod{
+	display: inline-block;
+	height: inherit;
+}
+.naslovProizvod {
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px black;
+	margin: 0px 20px 0px 20px;
+}
+.cenaProizvod {
+	font-size: 24px;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+#social #facebook:hover {
+	color: blue;
+}
